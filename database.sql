@@ -11,3 +11,7 @@ CREATE TABLE bookmark(
     INDEX(name),
     INDEX(bm_url),
     PRIMARY KEY(name, bm_url));
+    
+CREATE TABLE bm_popularity(
+    bm_url char(50) not null PRIMARY KEY,
+    popularity int not null);
