@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-3-20, 9:18:29
+    Author     : Lynone
+*/
+h2#header{
+    color: #4749ad;
+}
+h2#confirmerror{
+    color: #e21351;
+}
+ul#siteInfo{
+    color: #749444;
+}
+form.color{
+    background-color: #6886e2;
+    width: max-content;
+}
+ul.navga li:hover 
+{
+    background-color: #333536; 
+    border-top: red solid 1px;
+}
+
